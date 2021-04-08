@@ -1,0 +1,37 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import ProductLabel from './ProductLabel';
+
+<Meta
+  title="ProductLabel/Product Label Doc"
+  component={ProductLabel}
+/>
+
+<!--- This is your Story template function, shown here in React -->
+
+export const Template = (args) => <ProductLabel {...args } />
+
+# ProductLabel
+<Story name="Product label doc" args={{
+  productType: "REGULAR",
+  productSubType: "MAIN",
+  isPromotion: false,
+  text: 'Product label',
+}}>
+  {Template.bind({})}
+</Story>
+
+  Product label is using to indicate a product type in the place we showing some attributes of product like: price, amount, stock quantity, etc..
+
+## Usage
+  Cases:
+  See design
+
+### Amazing heading
+
+
+# Props
+
+<ArgsTable of={ProductLabel} />
+
+

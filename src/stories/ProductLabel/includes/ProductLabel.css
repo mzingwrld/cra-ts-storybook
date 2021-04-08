@@ -1,0 +1,74 @@
+.labels_wrapper_sb {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    width: 100px;
+    border: 1px dashed #7B61FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    
+}
+
+.product-label-wrapper {
+    margin-bottom: 12px;
+}
+
+.product-label-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.product-label-wrapper {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 3px;
+    display: inline-flex;
+    height: 16px;
+    padding: 2px 0;
+    padding-left: 4px;
+    padding-right: 1px;
+    cursor: default;
+}
+
+.product-label__icon {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    line-height: normal;
+}
+
+.product-label__name {
+    font-style: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+    user-select: none;
+}
+
+.promotion,
+.promo {
+    background: rgba(175, 82, 222, 0.15);
+}
+
+.product,
+.set {
+    background: rgba(22, 101, 216, 0.1);
+}
+
+.gift {
+    background: rgba(240, 169, 46, 0.15);
+}
